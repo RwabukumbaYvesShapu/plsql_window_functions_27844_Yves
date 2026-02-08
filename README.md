@@ -37,7 +37,7 @@ Obtain clear insights to prioritize high-value customers, optimize stock levels,
 ### ER Diagram
 Visual representation of the schema (created with draw.io):
 
-![ER Diagram](screenshots/er_diagram.png)
+![ER Diagram]([screenshots/er_diagram.png](https://github.com/RwabukumbaYvesShapu/plsql_window_functions_27844_Yves/blob/8407e21dd5695570042d0bd3faaeb8a7cf0ff2ed/er-digram.png))
 
 **Text fallback (for reference):**
 ## References
@@ -56,3 +56,5 @@ Visual representation of the schema (created with draw.io):
 
 **Sources Consulted:** 
 -Bro code - youtube video
+**screenshots**
+
