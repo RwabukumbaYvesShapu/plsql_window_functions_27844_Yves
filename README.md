@@ -4,6 +4,7 @@
 **Student ID:** 27844  
 **Course:** Database Development with PL/SQL (INSY 8311)  
 **Instructor:** Eric Maniraguha  
+**Group:** [A / B / C / D – replace with your actual group]  
 **Submission Date:** February 2026
 
 ## Business Problem Definition
@@ -20,18 +21,38 @@ Obtain clear insights to prioritize high-value customers, optimize stock levels,
 
 ## Success Criteria (5 measurable goals using window functions)
 
-1. Identify top 5 customers by total revenue → `RANK()`
-2. Calculate running (cumulative) monthly sales totals → `SUM() OVER()`
-3. Compute month-over-month sales growth percentage → `LAG()`
-4. Segment customers into 4 quartiles based on revenue → `NTILE(4)`
+1. Identify top 5 customers by total revenue → `RANK()`  
+2. Calculate running (cumulative) monthly sales totals → `SUM() OVER()`  
+3. Compute month-over-month sales growth percentage → `LAG()`  
+4. Segment customers into 4 quartiles based on revenue → `NTILE(4)`  
 5. Calculate three-month moving average of sales → `AVG() OVER()`
 
 ## Database Schema
 
 ### Tables
-- `customers` (customer_id PK, name, region)
-- `products` (product_id PK, name, category, price)
+- `customers` (customer_id PK, name, region)  
+- `products` (product_id PK, name, category, price)  
 - `sales` (sale_id PK, customer_id FK, product_id FK, sale_date, quantity, total_amount)
 
-### ER Diagram (text representation)
-![image alt](https://github.com/RwabukumbaYvesShapu/plsql_window_functions_27844_Yves/blob/298a391ee5f44cf538dc441c42c440a28985fa7c/er-digram.png)
+### ER Diagram
+Visual representation of the schema (created with draw.io):
+
+![ER Diagram](screenshots/er_diagram.png)
+
+**Text fallback (for reference):**
+## References
+
+- MySQL 8.0 Reference Manual – Window Functions  
+  https://dev.mysql.com/doc/refman/8.0/en/window-functions.html
+
+- MySQL 8.0 Reference Manual – JOIN Clause  
+  https://dev.mysql.com/doc/refman/8.0/en/join.html
+
+- W3Schools – SQL Joins  
+  https://www.w3schools.com/sql/sql_join.asp
+
+- W3Schools – SQL Window Functions  
+  https://www.w3schools.com/sql/sql_window_functions.asp
+
+**Sources Consulted:** 
+-Bro code - youtube video
