@@ -34,3 +34,4 @@ Obtain clear insights to prioritize high-value customers, optimize stock levels,
 - `sales` (sale_id PK, customer_id FK, product_id FK, sale_date, quantity, total_amount)
 
 ### ER Diagram (text representation)
+![image alt](https://github.com/RwabukumbaYvesShapu/plsql_window_functions_27844_Yves/blob/298a391ee5f44cf538dc441c42c440a28985fa7c/er-digram.png)
